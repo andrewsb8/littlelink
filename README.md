@@ -8,5 +8,3 @@ and [many.link](https://many.link/). I forked this to publish as a project page 
 NOTES FOR ME:
 Change colors via: `skeleton-light.css` or `skeleton-dark.css` to the HEX values of your choosing.
 Automatic theme option: You can also set your CSS to `skeleton-auto.css`, which will use the system theme of the device you visit on.
-
-This branch will be used for development so that the main branch will function as the website itself.
