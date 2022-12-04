@@ -34,5 +34,14 @@ function PLTlist() {
   }
 }
 
+function Sociallist() {
+  var click = document.getElementById("Social");
+  if(click.style.display ==="none") {
+    click.style.display ="block";
+  } else {
+    click.style.display ="none";
+  }
+}
+
 document.getElementById('PR').addEventListener("click", PRlist);
 document.getElementById('PLT').addEventListener("click", PLTlist);
