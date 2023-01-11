@@ -42,3 +42,11 @@
 }
 
 /* removed hover capabilities and added js click capabilities in css/dropdown.js */
+
+/* class to align drop down arrows to the right of drop down buttons */
+.arrow {
+  float: right;
+  width: 20px;
+  height: 20px;
+  padding: 13px 12px 0px 0px;
+}
