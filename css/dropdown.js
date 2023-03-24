@@ -1,5 +1,6 @@
 // to do:
 // - clicking on window does not result in menu closing
+// - collapse other drop downs when another is clicked
 // - have menu items shift when drop down is open
 
 window.onclick = function(event) {
@@ -45,3 +46,11 @@ function Sociallist() {
 
 document.getElementById('PR').addEventListener("click", PRlist);
 document.getElementById('PLT').addEventListener("click", PLTlist);
+
+//collapse all drop downs when background is clicked
+function clearClasses (target){
+  document.querySelectorAll('.dropdown-content.show').forEach((item)=>{
+    if(event.target.nextElementSibling !== item)
+      item.classList.remove('show');
+  })
+}
